@@ -1,16 +1,31 @@
 import React from 'react';
+import {BrowserRouter as Router,NavLink} from "react-router-dom";
+  
 
 const NavBar = () => {
     return(
-        <div>
-            <ul>
-                <li>Home</li>
-                <li>About Me</li>
-                <li> My Work</li>
-                <li>Resume</li>
-                <li>Contact Me</li>
-            </ul>
-        </div>
+        <Router>
+            <div>
+                <ul>
+                    <li>
+                        <NavLink to="/">Home</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/about">About Me</NavLink>
+                    </li>
+                    <li> 
+                        <NavLink to="/mywork">My Work</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/resume">Resume</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/contactme">Contact Me</NavLink>
+                    </li>
+                </ul>
+            </div>
+        </Router>
+        
     )
 }
 
