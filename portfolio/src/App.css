@@ -43,11 +43,45 @@ nav {
 
 .nav-btn {
   padding: 9px 25px;
-  background-color: rgba(53, 57, 60, 1);;
+  background-color: rgba(53, 57, 60, 1);
   border: none;
   border-radius: 50px;
   cursor: pointer;
   
 }
 
+.jumbotron{
+  background-color: rgba(53, 57, 60, 1);
+  height: 400px;
+ display: flex;
+}
 
+.jumbotron-text {
+  color: whitesmoke;
+  padding-top: 5%;
+  width: 50%;
+}
+.jumbotron-text-margin {
+  margin-bottom: 20px;
+}
+
+.jumbotron-btn {
+  padding: 9px 25px;
+  background-color: rgba(104, 237, 198, 1);
+  text-decoration: none;
+  color: rgba(66, 133, 140, 1);
+  border: none;
+  border-radius: 50px;
+  
+}
+.jumbotron-img {
+  padding-bottom: 200px;
+  height: 600px;
+  width: 400px;
+}
+
+.aboutme-header {
+  color: rgba(53, 57, 60, 1);
+  text-align: center;
+  margin-top: 50px;
+}
