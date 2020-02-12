@@ -5,13 +5,22 @@ $color2: rgba(93, 163, 153, 1);
 $color3: rgba(66, 133, 140, 1);
 $color4: rgba(104, 237, 198, 1);
 $color5: rgba(53, 57, 60, 1); */
+
+/* Global Styling */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
+.section-header {
+  color: rgba(53, 57, 60, 1);
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
 
+/* Nav Styling */
 nav {
   background-color:rgba(104, 237, 198, 1);
 }
@@ -50,6 +59,8 @@ nav {
   
 }
 
+/* jumbotron styling */
+
 .jumbotron{
   background-color: rgba(53, 57, 60, 1);
   height: 400px;
@@ -80,8 +91,23 @@ nav {
   width: 400px;
 }
 
-.aboutme-header {
-  color: rgba(53, 57, 60, 1);
-  text-align: center;
+/* about me styling */
+.aboutme{
+  display: flex;
   margin-top: 50px;
+  margin-left: 20%;
+  width: 70%;
 }
+
+.aboutme-icon {
+  height: 50px;
+  width: 50px;
+}
+
+
+.aboutme-section h3 {
+  color: rgba(104, 237, 198, 1);
+  margin: 10px 0;
+}
+
+/* My Work styling */
