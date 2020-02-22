@@ -1,8 +1,10 @@
 import React from 'react';
-import Landing from './Components/Landing'
-import NavBar from './Components/NavBar'
-import AboutMe from './Components/AboutMe'
-import MyWork from './Components/MyWork'
+import Landing from './Components/Landing';
+import NavBar from './Components/NavBar';
+import AboutMe from './Components/AboutMe';
+import MyWork from './Components/MyWork';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 
@@ -14,10 +16,11 @@ function App() {
         <NavBar/>
         <Switch>
           <Route exact path="/" component={Landing}/>
-          <Route path='/connect4' component={() => window.location = 'https://adancy95.github.io/Connect4'}/>
         </Switch>
         <AboutMe/>
         <MyWork/>
+        <Contact />
+        <Footer/>
       </div>
     </Router>
      
