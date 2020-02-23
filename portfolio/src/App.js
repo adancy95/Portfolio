@@ -14,6 +14,7 @@ function App() {
         <NavBar/>
         <Switch>
           <Route exact path="/" component={Landing}/>
+          <Route path='/connect4' component={() => window.location = 'https://adancy95.github.io/Connect4'}/>
         </Switch>
         <AboutMe/>
         <MyWork/>

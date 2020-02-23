@@ -5,9 +5,20 @@ const MyWork = () => {
     return(
         <section>
             <h1 className="section-header">My Work</h1>
-            <div>
-                <ProjectCard title="Connect4" technology="JavaScript, jQuery, SCSS, Git, Bootstrap, HTML, CSS" projectImage="https://i.pinimg.com/736x/e0/26/e3/e026e372c1c67454cde3e2e00c2c19fb.jpg"
-/>            </div>
+            <div className="my-works">
+                <div className="works">
+                    <ProjectCard title="Connect4"  projectImage="/connect-4.png" url="/Connect4"/>            
+                </div>
+                <div className="works">
+                    <ProjectCard title="daWeekly"  projectImage="/daweekly.png" url="https://da-weekly.herokuapp.com/" />
+                </div>
+                <div className="works">
+                    <ProjectCard title="MinaCre8s"  projectImage="/mina.png" url="http://minacre8s.herokuapp.com/" />
+                </div>
+                <div className="works">
+                    <ProjectCard title="Calculator"  projectImage="/calculator.png" url="https://adancy95.github.io/calculator/" />
+                </div>
+            </div>
         </section>
     )
 }
