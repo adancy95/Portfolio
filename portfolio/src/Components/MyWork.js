@@ -3,11 +3,11 @@ import ProjectCard from './ProjectCard'
 
 const MyWork = () => {
     return(
-        <section>
+        <section id="myWork">
             <h1 className="section-header">My Work</h1>
             <div className="my-works">
                 <div className="works">
-                    <ProjectCard title="Connect4"  projectImage="/connect-4.png" url="/Connect4"/>            
+                    <ProjectCard title="Connect4"  projectImage="/connect-4.png" url="https://adancy95.github.io/Connect4"/>            
                 </div>
                 <div className="works">
                     <ProjectCard title="daWeekly"  projectImage="/daweekly.png" url="https://da-weekly.herokuapp.com/" />
