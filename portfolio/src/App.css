@@ -20,6 +20,11 @@ $color5: rgba(53, 57, 60, 1); */
   font-size: 30px;
 }
 
+.icon {
+  height: 50px;
+  width: 50px;
+}
+
 /* Nav Styling */
 nav {
   background-color:rgba(104, 237, 198, 1);
@@ -99,15 +104,15 @@ nav {
   width: 70%;
 }
 
-.aboutme-icon {
-  height: 50px;
-  width: 50px;
-}
-
-
 .aboutme-section h3 {
   color: rgba(104, 237, 198, 1);
   margin: 10px 0;
+}
+
+.aboutme-section p {
+  text-align: justify;
+  width: 75%;
+
 }
 
 /* My Work styling */
@@ -116,6 +121,7 @@ nav {
   width: 75%;
   margin-top: 50px;
   margin-left: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card-image {
   display: block;
@@ -139,7 +145,7 @@ nav {
 }
 
 .card-text {
-  color: white;
+  
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -148,6 +154,10 @@ nav {
   -ms-transform: translate(-50%, -50%);
 }
 
+.project-title a{
+  text-decoration: none;
+  color: white;
+}
 .my-works {
   display: flex;
   justify-content: flex-start;
@@ -156,4 +166,35 @@ nav {
 
 .my-works .works {
   width: 32%;
+}
+
+/* Contact Me */
+.contact {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.contact li {
+  margin: 40px;
+}
+
+.contact li a {
+  color: rgba(53, 57, 60, 0.6);
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background-color:rgba(53, 57, 60, 1);
+  color: white;
+  text-align: center;
+}
+
+.footer p {
+  padding-top: 50px;
 }
