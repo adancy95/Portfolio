@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Landing = () => {
     return(
@@ -15,7 +15,7 @@ const Landing = () => {
                     <li className="jumbotron-text-margin">AKA Ant (if you can't pronounce my first name)</li>
                     <li className="jumbotron-text-margin">The Ex QA Engineer turned developer who is passonate about breaking down complex problems, and solving those problems with code.</li>
                 </ol>
-                <Link className="jumbotron-btn" to="/contactme">Contact Me</Link>
+                <Link className="jumbotron-btn" to="/#contact">Contact Me</Link>
             </div>
            
         </div>
