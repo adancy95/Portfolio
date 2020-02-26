@@ -5,7 +5,7 @@ const Landing = () => {
     return(
         <div className="jumbotron">
             <div>
-                <img className="jumbotron-img" src="/antheadshot.svg" alt="Antquanique's headshot"/>
+                <img className="jumbotron-img" src="./antheadshot.svg" alt="Antquanique's headshot"/>
             </div>
             <div className="jumbotron-text jumbotron-text-margin">
                 <h1 className="jumbotron-text-margin">Ant-quanique Dancy</h1>
